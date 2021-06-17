@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Domain.Entity
 {
-    class EBook
+    public class EBook
     {
         //Type
         public int Id { get; set; }

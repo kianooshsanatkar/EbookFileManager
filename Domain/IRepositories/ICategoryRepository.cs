@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Domain.IRepositories
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository
     {
         IEnumerable<Category> GetCategories();
         void AddCategory(Category category);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Domain.IRepositories
 {
-    interface IEBookRepository
+    public interface IEBookRepository
     {
         IEnumerable<EBook> GetEBooks();
         EBook GetEBook(int id);

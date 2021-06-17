@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Domain.IRepositories
 {
-    interface ITagRepository
+    public interface ITagRepository
     {
         IEnumerable<Tag> GetTags();
     }
