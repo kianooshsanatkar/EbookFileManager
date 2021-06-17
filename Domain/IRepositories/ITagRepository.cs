@@ -10,5 +10,6 @@ namespace Core.Domain.IRepositories
     public interface ITagRepository
     {
         IEnumerable<Tag> GetTags();
+        void AddTags(Tag tag);
     }
 }
