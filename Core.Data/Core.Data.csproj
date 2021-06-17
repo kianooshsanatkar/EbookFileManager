@@ -62,7 +62,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Core.Domain.csproj">
+    <ProjectReference Include="..\Core.Domain\Core.Domain.csproj">
       <Project>{177a2799-bf79-48d5-9e47-0750d7853986}</Project>
       <Name>Core.Domain</Name>
     </ProjectReference>

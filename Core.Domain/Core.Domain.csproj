@@ -7,7 +7,7 @@
     <ProjectGuid>{177A2799-BF79-48D5-9E47-0750D7853986}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Domain</RootNamespace>
+    <RootNamespace>Core.Domain</RootNamespace>
     <AssemblyName>Core.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
