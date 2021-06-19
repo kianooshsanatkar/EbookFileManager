@@ -18,7 +18,7 @@ namespace Core.Domain.Entity
         public string Writer { get; set; }
         public IEnumerable<Category> Categories { get; set; }
         public IEnumerable<Tag> Tags { get; set; }
-        public Uri GoodReadLink { get; set; }
+        public string GoodReadLink { get; set; }
         public byte[] Image { get; set; }
     }
 }
