@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Core.Data.Repositories
 {
-    class TagRepository : ITagRepository
+    public class TagRepository : ITagRepository
     {
         private readonly EBookDbContext _ctx;
         public TagRepository(EBookDbContext ctx)

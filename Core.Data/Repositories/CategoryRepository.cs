@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Core.Data.Repositories
 {
-    class CategoryRepository : ICategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
         private readonly EBookDbContext _ctx;
         public CategoryRepository(EBookDbContext ctx)

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Core.Data.Repositories
 {
-    class EBookRepository : IEBookRepository
+    public class EBookRepository : IEBookRepository
     {
         private readonly EBookDbContext _ctx;
         public EBookRepository(EBookDbContext ctx)
