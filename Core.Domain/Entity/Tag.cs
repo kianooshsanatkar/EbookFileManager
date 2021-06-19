@@ -10,5 +10,6 @@ namespace Core.Domain.Entity
     {
         public int Id { get; set; }
         public string TagName { get; set; }
+        public IEnumerable<EBook> EBooks { get; set; }
     }
 }
